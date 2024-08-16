@@ -1,0 +1,88 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Post 1",
+      "author": "Author 1"
+    },
+    {
+      "id": "2",
+      "title": "Post 2",
+      "author": "Author 2"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "postId": 1,
+      "body": "Comment 1"
+    },
+    {
+      "id": "2",
+      "postId": 1,
+      "body": "Comment 2"
+    }
+  ],
+  "ContactDetails": [
+    {
+      "cname": "petter",
+      "cno": "34567",
+      "cemail": "peter@gmail.com",
+      "id": "2"
+    },
+    {
+      "id": "1",
+      "name": "been",
+      "email": "been@gmail.com",
+      "cno": 2334568
+    },
+    {
+      "id": "bca5",
+      "cname": "Marripati Lokesh",
+      "cemail": "marripatilokesh237@gmail.com",
+      "cno": "09100656740"
+    },
+    {
+      "id": "12f9",
+      "cname": "Marripati Lokesh",
+      "cemail": "marripatilokesh237@gmail.com",
+      "cno": "09100656740"
+    },
+    {
+      "id": "99af",
+      "cname": "Marripati Lokesh",
+      "cemail": "marripatilokesh237@gmail.com",
+      "cno": "09100656740"
+    },
+    {
+      "cname": "Pavan",
+      "cno": "09100656567",
+      "cemail": "pavan237@gmail.com",
+      "id": "4e3d"
+    },
+    {
+      "id": "6fd6",
+      "cname": "Marripati Lokesh",
+      "cemail": "marripatilokesh237@gmail.com",
+      "cno": "09100656740"
+    },
+    {
+      "id": "4e45",
+      "cname": "Pavan",
+      "cemail": "pavan237@gmail.com",
+      "cno": "09100656567"
+    },
+    {
+      "id": "99aa",
+      "cname": "pavan",
+      "cemail": "pavan@gmail.com",
+      "cno": "45678"
+    },
+    {
+      "id": "0759",
+      "cname": "Moyya Janaki",
+      "cemail": "moyya@gmail.com",
+      "cno": "2345676543"
+    }
+  ]
+}
