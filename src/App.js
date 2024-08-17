@@ -14,7 +14,11 @@ import LoginData from './components/LoginData';
 // import InputApiCall from './WHOC/InputApiCall';
 import InputApiCall from './API CALL/InputApiCall';
 import FakeApi from './API CALL/FakeApi';
+import Timecounter from './components/TimeCounter';
 import Axios from './API CALL/Axios';
+import { BrowserRouter,Link,Route,Routes } from 'react-router-dom';
+import ComplaintsForm from './FormComponents/ComplaintsForm';
+import './FormComponents/ComplaintsForm.css';
 // const userData = [
 //   {
 //     id: 1,
@@ -49,16 +53,28 @@ import Axios from './API CALL/Axios';
 function App() {
   return (
     <>
+   
     {/* <Timecounter value="10"></Timecounter> */}
     <div className="App">
+      <ComplaintsForm></ComplaintsForm>
+    {/* <BrowserRouter>
+    <h1>Welcome to Application</h1>
+    <Link to="/filtercloth">Filter Clothing Products</Link>
+    <Link to="/countingtime">Time Counter</Link>
+   
+    <Routes>
+      <Route path="/filtercloth" element={<FilterClothingProducts></FilterClothingProducts>}></Route>
+      <Route path="/countingtime" element={<Timecounter></Timecounter>}></Route>
+    </Routes>
+    </BrowserRouter> */}
       {/* <FilterClothingProducts data={clothing}></FilterClothingProducts>
-      <FilterElectronics data={electronics}></FilterElectronics> */}
-      <ClothingCategory data={clothing}></ClothingCategory>
-      <ElectronicCatagory data={electronics}></ElectronicCatagory>
-      <LoginData></LoginData>
-      <InputApiCall></InputApiCall>
+       <FilterElectronics data={electronics}></FilterElectronics> */}
+       {/* <ClothingCategory data={clothing}></ClothingCategory>
+     <ElectronicCatagory data={electronics}></ElectronicCatagory>
+     <LoginData></LoginData>
+      <InputApiCall></InputApiCall> */}
   {/* <FakeApi></FakeApi> */}
-  <Axios></Axios>
+  {/* <Axios></Axios> */}
       {/* <ApiCalls></ApiCalls> */}
 
       {/* <TaskChange data={userData}></TaskChange> */}
